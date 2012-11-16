@@ -19,7 +19,7 @@ __version__ = "0.4.0"
 
 import urllib2
 import cssutils
-from BeautifulSoup import BeautifulSoup
+from bs4 import BeautifulSoup
 from soupselect import select
 
 class Pynliner(object):
